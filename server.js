@@ -10,8 +10,12 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 // Serve static files (HTML, CSS, JS)
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname)));
 
+app.get("/", (req, res) => {
+  console.log(path.join(__dirname, "index.html"))
+  res.sendFile(path.join(__dirname, "index.html"));
+});
 // For Handling form submission
 app.post('/submit-form', (req, res) => {
   const { name, email, message } = req.body;
