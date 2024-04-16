@@ -1,10 +1,10 @@
-# My_Portfolio
+# My Portfolio
 
 A portfolio template built with HTML, CSS, and JavaScript.
 
 To handle form submission using Node.js, you need to create a server that listens for POST requests and processes the form data.
 
-STEPS
+**STEPS**
 
 1.First, install the required dependencies by running the following command in your terminal:
 
@@ -12,7 +12,22 @@ STEPS
 
 2.Run your Node.js server by executing the following command in your terminal:
 
-`node server.js`
+`npm run dev`
+
+### File Structure
+
+- **geokin12.ithub.io/**  
+  ├── **image/**  
+  ├── `about.html`  
+  ├── `Contact.html`  
+  ├── _George Kinyua Resume(1).pdf_  
+  ├── `index.html`  
+  ├── `package-lock.json `  
+  ├── `package.json`  
+  ├── `README.md `  
+  ├── `script.js `  
+  ├── `server.js `  
+  └── `styles.css`
 
 ### Backend Code Documentation
 
